@@ -80,3 +80,11 @@ pytest -v --html=reports/report.html --self-contained-html
 ### Notas:
 
 Los reportes HTML están ignorados en GitHub (reports/) para mantener el repositorio limpio.
+
+### Ejemplo de reporte HTML
+
+<p align="center">
+  <img src="images/report_example.png" alt="Reporte HTML de pytest" width="800">
+</p>
+
+> El reporte incluye detalles de cada test ejecutado, su resultado (passed/failed), tiempo de ejecución y metadatos del entorno.
